@@ -5,7 +5,7 @@ function Nav() {
     <nav>
       <div className="nav">
         <div className="first-nav flex-row-center">
-          <i class="fas fa-envelope logo-icon h2-text"></i>
+          <i className="fas fa-envelope logo-icon h2-text"></i>
           <h2 className="h2-text">Estatery</h2>
         </div>
         <div className="mid-nav">
