@@ -14,7 +14,6 @@ function Home() {
         <div className="filter-sec">
           <Filter />
         </div>
-
         <Card />
       </div>
     </div>
