@@ -1,0 +1,12 @@
+.card-price {
+  color: var(--primary-color);
+}
+.card-content {
+  font-size: 1.5rem;
+}
+.foot-text {
+  font-size: 1.2rem;
+}
+.card-foot {
+  gap: 5px;
+}

@@ -1,0 +1,30 @@
+.filter {
+  width: 100%;
+  height: 10rem;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+.filter-list {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.filter-type {
+  color: gray;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  margin-top: 5px;
+}
+.filter-item {
+  justify-content: center;
+}
