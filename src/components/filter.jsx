@@ -17,23 +17,23 @@ function Filter() {
               value={value}
               onChange={handleChange}
             >
-              <option value="fruit">NewYork</option>
-              <option value="vegetable">India</option>
-              <option value="meat">China</option>
+              <option value="Newyourk">NewYork</option>
+              <option value="India">India</option>
+              <option value="Tokyo">Tokyo</option>
             </select>
           </div>
         </li>
         <li className="filter-item flex-col">
-          <div className="filter-type wt-md h5-text">When</div>
+          <div className="filter-type wt-md h5-text">Number of Beds</div>
           <div className="filter-type-list">
             <select
               className="wt-md h4-text"
               value={value}
               onChange={handleChange}
             >
-              <option value="fruit">NewYork</option>
-              <option value="vegetable">India</option>
-              <option value="meat">China</option>
+              <option value="2">less than 2</option>
+              <option value="6">less than 6</option>
+              <option value="7">greater than 6</option>
             </select>
           </div>
         </li>
@@ -45,9 +45,9 @@ function Filter() {
               value={value}
               onChange={handleChange}
             >
-              <option value="fruit">NewYork</option>
-              <option value="vegetable">India</option>
-              <option value="meat">China</option>
+              <option value="3000">1000-3000</option>
+              <option value="8000">4000-8000</option>
+              <option value="10000">8000-15000</option>
             </select>
           </div>
         </li>
@@ -59,9 +59,9 @@ function Filter() {
               value={value}
               onChange={handleChange}
             >
-              <option value="fruit">NewYork</option>
-              <option value="vegetable">India</option>
-              <option value="meat">China</option>
+              <option value="house">House</option>
+              <option value="bunglow">Bunglow</option>
+              <option value="flat">Flat</option>
             </select>
           </div>
         </li>

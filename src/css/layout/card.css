@@ -10,3 +10,9 @@
 .card-foot {
   gap: 5px;
 }
+.column-3-grid {
+  place-items: center;
+}
+.card-img {
+  height: 16rem;
+}
